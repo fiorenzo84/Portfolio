@@ -1,0 +1,17 @@
+@import '../../sass/utils/variables';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0px 5px 10px rgb(96, 18, 181);
+  
+    &.dark {
+      background: $backgroundHeaderLight;
+    }
+  
+    &.light {
+      background: $backgroundHeader;
+    }
+  }
