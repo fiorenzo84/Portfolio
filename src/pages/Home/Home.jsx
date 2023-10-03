@@ -5,6 +5,7 @@ import Projects from "../../components/Projects/Projects";
 import Skills from "../../components/Skills/Skills";
 import Header from "../../layouts/Header/Header";
 import "./home.scss";
+import Form from "../../components/Form/Form";
 
 export default function Home() {
   const location = useLocation();
@@ -22,11 +23,9 @@ export default function Home() {
           <About id="about" />
           <Skills id="skills" />
           <Projects id="projects" />
-          {/* <Form id="contact" /> */}
-          {/* <Footer /> */}
+          <Form id="contact" />
         </>
       ) : (
-        //  <NotFound />
         <div>test</div>
       )}
     </div>
