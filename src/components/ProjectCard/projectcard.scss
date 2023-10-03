@@ -1,0 +1,58 @@
+@import "../../sass/utils/variables";
+
+.project-card {
+  border: 1px solid $secondary;
+  padding: 16px;
+  margin: 40px 16px;
+  border-radius: 8px;
+
+  .project-image {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .project-title {
+    font-size: 1.2em;
+    margin-top: 8px;
+    background: rgba(75, 0, 255, 0.18);
+    padding: 6px;
+    border-radius: 5px;
+    width: min-content;
+  }
+
+  .project-description {
+    color: #5d5d5d;
+    margin: 8px 0;
+  }
+
+  .project-technologies {
+    font-weight: bold;
+    color: #555;
+    font-size: 0.9em;
+    font-style: italic;
+  }
+
+  .project-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-links a {
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: #9d13dc;
+    border-radius: 5px;
+    border: solid 1px;
+    width: 80px;
+    transition: background-color 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .project-links a:hover {
+    background: $primary;
+    color: white;
+  }
+}
