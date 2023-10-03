@@ -1,0 +1,96 @@
+@import "../../sass/utils/variables";
+
+.soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.skill-bubble {
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  margin: 5px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.container-button-skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .button-skills {
+    font-family: "Poppins";
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+    color: $primary;
+    border-radius: 5px;
+    border: solid 1px $primary;
+    width: 145px;
+    height: 40px;
+    background: transparent;
+    transition: background-color 0.5s ease-out, transform 0.5s ease-out;
+
+    &.selected {
+      background-color: $primary;
+      color: white;
+      border: solid white 1px;
+      cursor: default;
+      font-size: 16px;
+    }
+  }
+  :hover {
+    cursor: pointer;
+    background: $primary;
+    color: white;
+    border: solid white 1px;
+  }
+}
+
+.content-skills.soft-selected {
+  border-radius: 5px;
+  background: linear-gradient(
+    357deg,
+    rgba(7, 5, 33, 1) 40%,
+    rgba(157, 19, 220, 1) 100%
+  );
+  border: solid 1px white;
+}
+
+.content-skills.hard-selected {
+  display: flex;
+  background: linear-gradient(
+    357deg,
+    rgba(7, 5, 33, 1) 40%,
+    rgba(157, 19, 220, 1) 100%
+  );
+  border-radius: 5px;
+  border: solid 1px white;
+  padding-left: 20px;
+  h3 {
+    margin-bottom: 13px;
+    color: white;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin-top: 0px;
+    color: white;
+    li {
+      display: flex;
+      font-size: 25px;
+      background: black;
+      border-radius: 5px;
+      margin: 3px;
+      padding: 3px;
+      box-shadow: 0px 0px 5px $primary;
+    }
+  }
+}
