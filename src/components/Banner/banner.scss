@@ -1,0 +1,72 @@
+@import '../../sass/utils/variables';
+
+.banner {
+    height: 80vh;
+    padding: 0px 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    h1 {
+      margin: 0px;
+      color: white;
+      padding: 10px 0px;
+      border-radius: 10px;
+      background: linear-gradient(
+        356deg,
+        rgb(7, 5, 33) 50%,
+        rgb(96, 18, 181) 67%,
+        rgb(255, 255, 255) 100%
+      );
+      box-shadow: 0px 0px 2px $secondary;
+    }
+  
+    p {
+      width: 250px;
+      margin: 0px;
+      font-size: 17px;
+      color: white;
+      background: #4b00ffa1;
+      border-radius: 5px;
+      box-shadow: 0px 0px 20px $secondary;
+      padding: 10px;
+    }
+  
+    .container-title-subtitle {
+      top: 260px;
+      position: absolute;
+    }
+  
+    .monLogo {
+      width: 350px;
+      position: absolute;
+      bottom: 50px;
+      z-index: -1;
+      filter: drop-shadow(0px 5px 3px #4b00ff);
+    }
+  
+    .container-icons {
+        position: relative;
+        bottom: -280px;
+        right: 95px;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+  
+      a {
+        color: $primary;
+        height: 30px;
+      }
+    }
+  
+    .logo-fade-in {
+      will-change: opacity;
+      animation: fadeIn 5s ease-in-out, zoomIn 5s ease-in-out forwards,
+        wave 5s ease-in-out forwards;
+    }
+  }
+  
