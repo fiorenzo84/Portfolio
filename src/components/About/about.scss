@@ -1,0 +1,47 @@
+@import "../../sass/utils/variables";
+
+#about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+
+  .my-picture {
+    margin: 10px;
+    width: 120px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    background: rgb(75 0 255 / 18%);
+    padding: 5px 20px;
+    border-radius: 25px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .txt {
+    color: white;
+    padding: 20px;
+    //margin: 20px;
+    height: 350px;
+    background: linear-gradient(
+      181deg,
+      $secondary 30%,
+      rgba(7, 5, 33, 0.11) 100%,
+      transparent 100%
+    );
+    border-radius: 10px;
+
+    .container-icons-of-txt {
+      text-align: center;
+      padding: 35px;
+
+      .icons {
+        font-size: 2em;
+        margin: 15px;
+      }
+    }
+  }
+}
