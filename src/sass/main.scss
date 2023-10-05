@@ -2,7 +2,4 @@
 @import "./utils/variables";
 @import "./utils/animations";
 @import "./utils/mixins";
-@import "../pages/Home/home";
-@import "../layouts/Header/header";
-@import "../components/ThemeToggle/themeToggle";
-@import "../components/Burger/burger";
+@import "./components/button";

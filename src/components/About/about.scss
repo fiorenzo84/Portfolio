@@ -22,9 +22,10 @@
   }
 
   .txt {
+    display: flex;
+    flex-direction: column;
     color: white;
     padding: 20px;
-    //margin: 20px;
     height: 350px;
     background: linear-gradient(
       181deg,
@@ -36,7 +37,7 @@
 
     .container-icons-of-txt {
       text-align: center;
-      padding: 35px;
+      padding: 25px;
 
       .icons {
         font-size: 2em;

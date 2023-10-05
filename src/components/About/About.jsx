@@ -17,6 +17,7 @@ export default function About() {
           <FaRocket className="icons" />
           <FaLightbulb className="icons" />
         </div>
+          <button className="button">Télécharger cv</button>
       </div>
     </section>
   );

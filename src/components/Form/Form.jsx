@@ -48,7 +48,7 @@ function Form() {
         <label htmlFor="message">Message :</label>
         <textarea name="message" id="message" required />
 
-        <button type="submit" className="submitButton">
+        <button type="submit" className="button">
           Envoyer
         </button>
       </form>
