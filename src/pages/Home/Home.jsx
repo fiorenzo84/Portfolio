@@ -8,6 +8,7 @@ import Header from "../../layouts/Header/Header";
 import Form from "../../components/Form/Form";
 import Footer from "../../layouts/Footer/Footer";
 import NotFound from "../NotFound/NotFound";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 export default function Home() {
   const location = useLocation();
@@ -19,6 +20,7 @@ export default function Home() {
   return (
     <div>
       <Header />
+      <ScrollToTop/>
       {isValidRoute ? (
         <>
           <Banner />
