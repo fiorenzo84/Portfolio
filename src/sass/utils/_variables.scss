@@ -1,6 +1,22 @@
-$backgroundHeader: linear-gradient(187deg, rgb(255 255 255 / 0%) 30%, rgb(96, 18, 181) 100%, transparent 100%);
-
-$backgroundHeaderLight:linear-gradient(26deg, rgb(7, 5, 33) 10%, rgb(96, 18, 181) 40%, rgb(255, 255, 255) 100%);
-
-$primary:#9d13dc;
+$primary: #9d13dc;
 $secondary: #4b00ff;
+
+$backgroundHeader: linear-gradient(
+  187deg,
+  rgb(255 255 255 / 0%) 30%,
+  rgb(96, 18, 181) 100%,
+  transparent 100%
+);
+
+$backgroundHeaderLight: linear-gradient(
+  26deg,
+  rgb(7, 5, 33) 10%,
+  rgb(96, 18, 181) 40%,
+  rgb(255, 255, 255) 100%
+);
+
+$backgroundSkillsContainer: linear-gradient(
+  287deg,
+  rgba(7, 5, 33, 1) 17%,
+  rgba(157, 19, 220, 1) 72%
+);

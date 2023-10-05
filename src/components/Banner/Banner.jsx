@@ -1,6 +1,6 @@
 import "./banner.scss";
-import { useRef, useEffect } from 'react';
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import {useRef, useEffect} from "react";
+import {FaLinkedin, FaGithub} from "react-icons/fa";
 import Typed from "typed.js";
 import MonLogo from "../../assets/images/mon_logo.png";
 
@@ -55,5 +55,4 @@ function Banner() {
 
 export default Banner;
 
-
-// REGLER LE BACKGROUND AVEC PADDING A L'ANIMATION DU NOM 
+// REGLER LE BACKGROUND AVEC PADDING A L'ANIMATION DU NOM

@@ -55,21 +55,13 @@
 
 .content-skills.soft-selected {
   border-radius: 5px;
-  background: linear-gradient(
-    357deg,
-    rgba(7, 5, 33, 1) 40%,
-    rgba(157, 19, 220, 1) 100%
-  );
+  background: $backgroundSkillsContainer;
   border: solid 1px white;
 }
 
 .content-skills.hard-selected {
   display: flex;
-  background: linear-gradient(
-    357deg,
-    rgba(7, 5, 33, 1) 40%,
-    rgba(157, 19, 220, 1) 100%
-  );
+  background: $backgroundSkillsContainer;
   border-radius: 5px;
   border: solid 1px white;
   padding-left: 20px;
