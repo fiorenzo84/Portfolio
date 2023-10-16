@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./about.scss";
 import maPhoto from "../../assets/images/ma_photo.png";
-import {FaLightbulb, FaRocket} from "react-icons/fa";
 
 export default function About() {
   return (
@@ -9,15 +8,20 @@ export default function About() {
       <h2>À propos</h2>
       <img src={maPhoto} alt="Ma profil picture" className="my-picture" />
       <div className="txt">
-        développeur web passionné par le web et les technologies associées, je
-        suis pleinement engagé dans ma progression professionnelle dans le
-        secteur numérique. Attentif et flexible, je sais m'adapter aux exigences
-        de mes rôles et responsabilités.
-        <div className="container-icons-of-txt">
-          <FaRocket className="icons" />
-          <FaLightbulb className="icons" />
-        </div>
-          <button className="button">Télécharger cv</button>
+        <p>
+          Moi, c'est Florent, un développeur web animé par une passion profonde
+          pour le monde numérique et ses innovations.
+          <br />
+          <br /> Mon parcours m'a permis de comprendre les nuances du
+          développement web, J'ai eu l'opportunité d'apprendre et d'expérimenter avec des technos tel que <span className="highlight">React, Redux, Sass, Node.js</span> , contribuant ainsi à la réalisation d'applications web.
+          <br />
+          <br />
+          Je vous invite à naviguer à travers mon portfolio pour avoir un aperçu
+          de ma vision.
+          <br /> Si mon univers vous interpelle, je serais
+          ravi de collaborer, de partager ou même d'échanger avec vous.  
+        </p>
+        <button className="button">Télécharger cv</button>
       </div>
     </section>
   );

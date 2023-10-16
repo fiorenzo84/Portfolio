@@ -1,7 +1,7 @@
 @import "../../sass/utils/variables";
 
 .banner {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   font-size: 25px;
   display: flex;
@@ -13,47 +13,31 @@
   h1 {
     margin: 0px;
     color: white;
-    padding: 10px 0px;
-    border-radius: 10px;
-    background: linear-gradient(
-      356deg,
-      rgb(7, 5, 33) 50%,
-      rgb(96, 18, 181) 67%,
-      rgb(255, 255, 255) 100%
-    );
-    box-shadow: 0px 0px 2px $secondary;
+    filter: drop-shadow(0px 2px 5px black);
   }
 
   p {
     width: 250px;
-    margin: 0px;
     font-size: 17px;
     color: white;
-    background: #4b00ffa1;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px $secondary;
-    padding: 10px;
   }
 
   .container-title-subtitle {
     top: 260px;
     position: absolute;
-    h1 {
-      padding: 15px;
-    }
   }
 
   .monLogo {
     width: 350px;
     position: absolute;
-    bottom: 50px;
+    bottom: 90px;
     z-index: -1;
-    filter: drop-shadow(0px 5px 3px #4b00ff);
+    filter: drop-shadow(0px 3px 1px black);
   }
 
   .container-icons {
     position: relative;
-    bottom: -255px;
+    bottom: -220px;
     right: 95px;
     width: 20%;
     display: flex;
@@ -70,5 +54,65 @@
     will-change: opacity;
     animation: fadeIn 5s ease-in-out, zoomIn 5s ease-in-out forwards,
       wave 5s ease-in-out forwards;
+  }
+}
+
+/// RESPONSIVE ///
+@media (min-width: $tablette) {
+  .banner {
+    .container-title-subtitle {
+      //top: 420px;
+      top: 320px;
+      font-size: 40px;
+      p {
+        width: 100%;
+        font-size: 25px;
+      }
+    }
+    .monLogo {
+      width: 550px;
+      bottom: 120px;
+    }
+    .container-icons {
+      top: 360px;
+      right: 300px;
+      justify-content: center;
+    }
+  }
+}
+
+@media (min-width: $smallScreen) {
+  .banner {
+    .container-title-subtitle {
+      font-size: 60px;
+      top: 400px;
+      p {
+        font-size: 40px;
+      }
+    }
+    .monLogo {
+      width: 780px;
+      bottom: 290px;
+    }
+    .container-icons {
+      top: 230px;
+      right: 0px;
+      .social {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .banner {
+    .container-title-subtitle {
+      top: 480px;
+    }
+    .monLogo {
+      width: 850px;
+      bottom: 250px;
+    }
   }
 }

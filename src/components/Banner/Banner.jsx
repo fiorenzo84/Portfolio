@@ -12,7 +12,7 @@ function Banner() {
       const options = {
         strings: [
           "<h1>Florent Tuppo</h1>",
-          "<h1>Florent Tuppo</h1><p>Développeur front-end React</p>",
+          "<h1>Florent Tuppo</h1><p>Développeur web React</p>",
         ],
         typeSpeed: 70,
         backSpeed: 70,
@@ -38,14 +38,14 @@ function Banner() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visitez mon profil LinkedIn">
-          <FaLinkedin size={30} />
+          <FaLinkedin size={30} className="social"/>
         </a>
         <a
           href="https://github.com/fiorenzo84/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visitez mon profil GitHub">
-          <FaGithub size={30} />
+          <FaGithub size={30} className="social"/>
         </a>
       </div>
       <img src={MonLogo} className="monLogo logo-fade-in" alt="My Logo" />
@@ -54,5 +54,3 @@ function Banner() {
 }
 
 export default Banner;
-
-// REGLER LE BACKGROUND AVEC PADDING A L'ANIMATION DU NOM

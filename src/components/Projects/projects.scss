@@ -4,14 +4,30 @@
   padding: 20px;
 
   h2 {
-    text-align: center;
+    width: auto;
+    text-align: left;
     background: rgb(75 0 255 / 18%);
-    padding: 5px 0px;
+    padding: 5px 20px;
     margin-top: 0px;
-    border-radius: 25px;
+    border-radius: 10px;
   }
 
   h3 {
     text-shadow: 0 0 5px $secondary;
+  }
+}
+
+/// RESPONSIVE ///
+@media (min-width: $tablette) {
+  #projects {
+    height: 100vh;
+  }
+}
+
+@media (min-width: $desktop) {
+  #projects {
+    .projects-container {
+      margin: 60px;
+    }
   }
 }

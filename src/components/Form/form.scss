@@ -1,37 +1,38 @@
 @import "../../sass/utils/variables";
 
 form {
+  max-width: 768px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
   background: linear-gradient(
-    51deg,
-    #4b00ff 52%,
+    181deg,
+    #4b00ff 30%,
     rgba(7, 5, 33, 0.11) 100%,
     transparent 100%
   );
-  margin: 0 auto;
   padding: 20px;
   border-radius: 5px;
   h2 {
-    background: rgba(75, 0, 255, 0.18);
     padding: 5px 0px;
-    border-radius: 25px;
   }
 }
 
 label {
-  margin-bottom: 5px;
   font-weight: bold;
+  color: white;
+  width: 100%;
+  max-width: 500px;
+  margin: 0px auto 15px;
 }
 
 input,
 textarea {
   width: 100%;
+  max-width: 500px;
   padding: 10px;
-  margin-bottom: 30px;
+  margin: 0px auto 30px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
@@ -79,4 +80,28 @@ p {
   width: 40px;
   height: 38px;
   border-radius: 5px;
+}
+
+/// RESPONSIVE ///
+@media (min-width: $tablette) {
+  form {
+    margin: auto;
+    textarea {
+      height: 235px;
+    }
+  }
+}
+
+@media (min-width: $smallScreen) {
+  form {
+    justify-content: center;
+    height: 70vh;
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: $desktop) {
+  form {
+    margin-bottom: 30px;
+  }
 }

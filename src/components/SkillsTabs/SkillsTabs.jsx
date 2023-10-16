@@ -78,7 +78,7 @@ export default function SkillsTabs() {
   const hardSkills = (
     <div>
       {logoSkills.map((category, index) => (
-        <div key={index}>
+        <div key={index} className="container-title-logo">
           <h3>{category.category}</h3>
           <ul>
             {category.skills.map((skill, skillIndex) => (

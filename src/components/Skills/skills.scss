@@ -1,11 +1,14 @@
+@import "../../sass/utils/variables";
+
 #skills {
   padding: 20px;
 
   .skills-title {
+    width: auto;
     margin-top: 0px;
-    text-align: center;
-    padding: 5px 0px;
-    border-radius: 25px;
+    text-align: left;
+    padding: 5px 20px;
+    border-radius: 10px;
     background: rgb(75 0 255 / 18%);
   }
   .skills-container {
@@ -13,5 +16,28 @@
     height: 80%;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #4b00ff;
+  }
+  .quote-carousel-container {
+    display: none;
+  }
+}
+
+/// RESPONSIVE ///
+@media (min-width: $tablette) {
+  #skills {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .skills-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 60px;
+      height: 78%;
+      .quote-carousel-container {
+        display: block;
+      }
+    }
   }
 }

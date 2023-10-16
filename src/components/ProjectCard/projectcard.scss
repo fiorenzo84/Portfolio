@@ -5,6 +5,9 @@
   padding: 16px;
   margin: 40px 16px;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   .project-image {
     max-width: 100%;
@@ -23,7 +26,7 @@
   }
 
   .project-description {
-    color: #5d5d5d;
+    color: white;
     margin: 8px 0;
   }
 
@@ -54,5 +57,12 @@
   .project-links a:hover {
     background: $primary;
     color: white;
+  }
+}
+
+/// RESPONSIVE ///
+@media (min-width: $tablette) {
+  .projects-container {
+    display: flex;
   }
 }
