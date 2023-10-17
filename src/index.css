@@ -8,6 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Pour WebKit (Chrome, Safari) */
 ::-webkit-scrollbar {
   /* Largeur de la barre de défilement */
   width: 12px;
@@ -30,6 +31,12 @@ body {
     rgb(44, 38, 125) 8%,
     rgb(215, 130, 255) 40%
   );
+}
+
+/* Pour Firefox */
+html {
+  scrollbar-width: auto;
+  scrollbar-color: rgba(157, 19, 220, 0.5) white;
 }
 
 body.light {
@@ -84,3 +91,4 @@ h6 {
 .dark .errorText {
   color: white;
 }
+
