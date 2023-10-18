@@ -1,76 +1,18 @@
 import "./skillstabs.scss";
-
 import {useState} from "react";
-import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
-  SiVisualstudiocode,
-  SiNodedotjs,
-  SiNpm,
-  SiYarn,
-  SiReact,
-  SiSass,
-  SiBootstrap,
-  SiGit,
-  SiGithub,
-  SiCanva,
-  SiFigma,
-} from "react-icons/si";
+import {logoSkills, softSkillsList} from "./SkillTabsComponents/skillsData";
+import {SkillBubble} from "./SkillTabsComponents/SkillBubble";
+import {SkillCategory} from "./SkillTabsComponents/SkillCategory";
 
 export default function SkillsTabs() {
+  const SOFT = "SOFT";
+  const HARD = "HARD";
   const [selectedTab, setSelectedTab] = useState(0);
-  const logoSkills = [
-    {
-      category: "Langages",
-      skills: [
-        {logo: <SiHtml5 />},
-        {logo: <SiCss3 />},
-        {logo: <SiJavascript />},
-      ],
-    },
-    {
-      category: "Frameworks & Libraries",
-      skills: [
-        {logo: <SiReact />},
-        {logo: <SiSass />},
-        {logo: <SiBootstrap />},
-      ],
-    },
-    {
-      category: "Environnement de travail",
-      skills: [
-        {logo: <SiVisualstudiocode />},
-        {logo: <SiNodedotjs />},
-        {logo: <SiNpm />},
-        {logo: <SiYarn />},
-      ],
-    },
-    {
-      category: "Versionning",
-      skills: [{logo: <SiGit />}, {logo: <SiGithub />}],
-    },
-    {
-      category: "Design",
-      skills: [{logo: <SiCanva />}, {logo: <SiFigma />}],
-    },
-  ];
 
   const softSkills = (
     <div className="soft-skills">
-      {[
-        "Autonomie",
-        "Rigueur",
-        "Curiosité",
-        "Aisance Relationnelle",
-        "Écoute et Adaptabilité",
-        "Travail en Équipe",
-        "Apprentissage Continu",
-        "Flexibilité",
-      ].map((skill, index) => (
-        <div key={index} className="skill-bubble">
-          {skill}
-        </div>
+      {softSkillsList.map((skill, index) => (
+        <SkillBubble key={index} skill={skill} />
       ))}
     </div>
   );
@@ -78,21 +20,15 @@ export default function SkillsTabs() {
   const hardSkills = (
     <div>
       {logoSkills.map((category, index) => (
-        <div key={index} className="container-title-logo">
-          <h3>{category.category}</h3>
-          <ul>
-            {category.skills.map((skill, skillIndex) => (
-              <li key={skillIndex}>
-                {skill.logo} {skill.name}
-              </li>
-            ))}
-          </ul>
-        </div>
+        <SkillCategory key={index} category={category} />
       ))}
     </div>
   );
 
-  const tabsData = [{content: softSkills}, {content: hardSkills}];
+  const tabsData = [
+    {key: SOFT, content: softSkills},
+    {key: HARD, content: hardSkills},
+  ];
 
   return (
     <div className="container-skills-tabs">
