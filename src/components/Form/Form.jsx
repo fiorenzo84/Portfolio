@@ -33,7 +33,8 @@ function Form() {
       <form
         onSubmit={handleSubmit}
         action="https://formspree.io/f/mnqkvogl"
-        method="POST">
+        method="POST"
+        data-aos="fade-up">
         <h2>Contact</h2>
 
         <label htmlFor="nom">Nom :</label>

@@ -19,7 +19,7 @@ export default function ProjectCard({
   };
 
   return (
-    <div className="project-card">
+    <div className="project-card" data-aos="flip-left" data-aos-duration="3000">
       <img
         src={image}
         alt={`Capture d'écran du projet ${title}`}

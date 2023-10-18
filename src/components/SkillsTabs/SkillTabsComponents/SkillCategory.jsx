@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 export function SkillCategory({category}) {
   return (
-    <div className="container-title-logo">
+    <div className="container-title-logo" data-aos="fade-in">
       <h3>{category.category}</h3>
       <ul>
         {category.skills.map((skill, skillIndex) => (

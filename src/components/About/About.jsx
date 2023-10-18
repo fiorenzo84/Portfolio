@@ -6,9 +6,9 @@ export default function About() {
   return (
     <section id="about">
       <h2>À propos</h2>
-      <img src={maPhoto} alt="Ma profil picture" className="my-picture" />
+      <img src={maPhoto} alt="Ma profil picture" className="my-picture" data-aos="zoom-in"/>
       <div className="txt">
-        <p>
+        <p data-aos="zoom-in">
           Moi, c'est Florent, un développeur web animé par une passion profonde
           pour le monde numérique et ses innovations.
           <br />
