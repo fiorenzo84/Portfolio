@@ -17,32 +17,30 @@ export default function Burger() {
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
 
-      {isOpen && (
-        <nav>
-          <ul>
-            <li>
-              <a href="#about" onClick={toggleMenu}>
-                À propos
-              </a>
-            </li>
-            <li>
-              <a href="#skills" onClick={toggleMenu}>
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="#projects" onClick={toggleMenu}>
-                Projets
-              </a>
-            </li>
-            <li>
-              <a href="#contact" onClick={toggleMenu}>
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-      )}
+      <nav className={isOpen ? "open" : ""}>
+        <ul>
+          <li>
+            <a href="#about" onClick={toggleMenu}>
+              À propos
+            </a>
+          </li>
+          <li>
+            <a href="#skills" onClick={toggleMenu}>
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#projects" onClick={toggleMenu}>
+              Projets
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={toggleMenu}>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 }

@@ -32,20 +32,20 @@ function Banner() {
   return (
     <section className="banner">
       <span ref={typewriterRef} className="container-title-subtitle"></span>
-      <div className="container-icons logo-fade-in">
+      <div className="container-icons" data-aos="fade-right">
         <a
           href="https://www.linkedin.com/in/florent-tuppo/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visitez mon profil LinkedIn">
-          <FaLinkedin size={30} className="social"/>
+          <FaLinkedin size={30} className="social" />
         </a>
         <a
           href="https://github.com/fiorenzo84/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visitez mon profil GitHub">
-          <FaGithub size={30} className="social"/>
+          <FaGithub size={30} className="social" />
         </a>
       </div>
       <img src={MonLogo} className="monLogo logo-fade-in" alt="My Logo" />

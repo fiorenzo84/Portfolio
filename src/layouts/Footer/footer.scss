@@ -2,15 +2,17 @@
   height: 120px;
   display: flex;
   align-items: center;
-  justify-content:flex-end;
+  justify-content: flex-end;
   bottom: 0px;
   width: 100%;
   flex-direction: column;
-}
-
-.footer-text {
-  color: #fff;
-  font-size: 12px;
-  padding: 4px;
-  border-radius: 5px;
+  .footer-text {
+    color: #fff;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  a {
+    color: #9d13dc;
+  }
 }
