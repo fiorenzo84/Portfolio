@@ -9,8 +9,8 @@ export default function Skills() {
       <div className="skills-container">
         <SkillsTabs />
         <div className="quote-carousel-container">
-                <QuoteCarousel />
-            </div>
+          <QuoteCarousel />
+        </div>
       </div>
     </section>
   );

@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function QuoteCarousel() {
     const settings = {
+        fade: true,
         dots: true,
         arrows:false,
         infinite: true,
