@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import {Tooltip} from "react-tooltip";
 
 export function SkillCategory({category}) {
   return (
@@ -6,9 +7,15 @@ export function SkillCategory({category}) {
       <h3>{category.category}</h3>
       <ul>
         {category.skills.map((skill, skillIndex) => (
-          <li key={skillIndex}>
+          <li
+            key={skillIndex}
+            data-tooltip-id={`tooltip-${skillIndex}`}
+            data-tooltip-content={skill.name}>
             {skill.logo}
-            {/* {skill.name} */}
+            <Tooltip
+              id={`tooltip-${skillIndex}`}
+              className="my-custom-tooltip"
+            />
           </li>
         ))}
       </ul>
