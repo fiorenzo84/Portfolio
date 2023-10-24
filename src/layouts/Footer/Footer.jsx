@@ -12,14 +12,14 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visitez mon profil LinkedIn">
-          <FaLinkedin size={30} />
+          <FaLinkedin size={48} />
         </a>
         <a
           href="https://github.com/fiorenzo84/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visitez mon profil GitHub">
-          <FaGithub size={30} />
+          <FaGithub size={48} />
         </a>
       </div>
     </footer>

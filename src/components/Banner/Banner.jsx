@@ -38,14 +38,14 @@ function Banner() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visitez mon profil LinkedIn">
-          <FaLinkedin size={30} className="social" />
+          <FaLinkedin size={48} className="social" />
         </a>
         <a
           href="https://github.com/fiorenzo84/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visitez mon profil GitHub">
-          <FaGithub size={30} className="social" />
+          <FaGithub size={48} className="social" />
         </a>
       </div>
       <img src={MonLogo} className="monLogo logo-fade-in" alt="My Logo" />

@@ -47,6 +47,9 @@
     a {
       color: $primary;
       height: 30px;
+      display: inline-block; /* Transforme le lien en bloc en ligne pour permettre le padding */
+      padding: 5px;
+      margin: 5px 0;
     }
   }
 
