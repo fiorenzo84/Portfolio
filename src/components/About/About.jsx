@@ -18,9 +18,9 @@ export default function About() {
           pour le monde numérique et ses innovations.
           <br />
           <br /> Mon parcours m'a permis de comprendre les nuances du
-          développement web, J'ai eu l'opportunité d'apprendre et d'expérimenter
-          avec des technos tel que{" "}
-          <span className="highlight">React, Redux, Sass, Node.js</span> ,
+          développement web, J'ai eu l'opportunité d'apprendre dans ma formation développeur intégrateur web OpenClassrooms,
+          des technos tel que :{" "}
+          <span className="highlight">React, Redux, Sass, Node.js </span> 
           contribuant ainsi à la réalisation d'applications web.
           <br />
           <br />
