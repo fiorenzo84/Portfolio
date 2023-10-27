@@ -7,9 +7,9 @@ export default function ScrollToTop() {
 
   useEffect(() => {
     const checkScroll = () => {
-      if (!isVisible && window.pageYOffset > 400) {
+      if (!isVisible && window.scrollY > 400) {
         setIsVisible(true);
-      } else if (isVisible && window.pageYOffset <= 400) {
+      } else if (isVisible && window.scrollY <= 400) {
         setIsVisible(false);
       }
     };
