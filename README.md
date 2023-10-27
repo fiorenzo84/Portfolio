@@ -27,7 +27,7 @@ Welcome to the repository of my developer portfolio. Designed to showcase my ski
 
 Check out the portfolio: (coming soon...)
 
-## 🚧 Lancement en local
+## 🚧 Launch Locally
 
 1. Clonez this repo : git clone https://github.com/fiorenzo84/Portfolio
 2. Install dependencies : npm install
