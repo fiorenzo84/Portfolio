@@ -1,10 +1,10 @@
 # Portfolio - Florent Tuppo
 
-Bienvenue sur le repository de mon portfolio de développeur. Conçu pour présenter mes compétences, mon parcours et mes projets en utilisant React avec ViteJS.
+Welcome to the repository of my developer portfolio. Designed to showcase my skills, background, and projects using React with ViteJS.
 
-## 🛠 Technologies utilisées
+## 🛠 Technologies Used
 
-- **Framework principal** : `React`
+- **Main Framework** : `React`
 - **Bundler / Environment** : `ViteJS`
 - **Styling** : `Sass`
 - **Animations** :
@@ -19,22 +19,22 @@ Bienvenue sur le repository de mon portfolio de développeur. Conçu pour prése
 ## 🚀 Scripts
 
 - **Développement** : `npm run dev`
-- **Build pour la production** : `npm run build`
-- **Vérification du code avec ESLint** : `npm run lint`
-- **Prévisualiser la production build** : `npm run preview`
+- **Build for production** : `npm run build`
+- **Code verification with ESLint** : `npm run lint`
+- **Preview the production build** : `npm run preview`
 
 ## 🌍 Démo en ligne
 
-Découvrez le portfolio : (à venir...)
+Check out the portfolio: (coming soon...)
 
 ## 🚧 Lancement en local
 
-1. Clonez ce repo : git clone https://github.com/fiorenzo84/Portfolio
-2. Installez les dépendances : npm install
-3. Lancez le projet : npm run dev
+1. Clonez this repo : git clone https://github.com/fiorenzo84/Portfolio
+2. Install dependencies : npm install
+3. Launch the project : npm run dev
 
 ## 📬 Contact
 
-📬 Pour me contacter :
+📬 To contact me :
 - **Email**: florent.tuppo@gmail.com 
 - **LinkedIn**: https://www.linkedin.com/in/florent-tuppo/
