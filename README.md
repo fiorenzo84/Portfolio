@@ -29,7 +29,7 @@ Check out the portfolio: (coming soon...)
 
 ## 🚧 Launch Locally
 
-1. Clonez this repo : git clone https://github.com/fiorenzo84/Portfolio
+1. Clone this repo : git clone https://github.com/fiorenzo84/Portfolio
 2. Install dependencies : npm install
 3. Launch the project : npm run dev
 
