@@ -47,7 +47,7 @@ body.light {
 }
 
 body.dark {
-  background-image: url("/src/assets/images/background.jpg");
+  background-image: url("/src/assets/images/background.png");
 }
 
 .light h2,

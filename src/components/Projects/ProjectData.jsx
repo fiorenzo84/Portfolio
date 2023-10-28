@@ -1,3 +1,6 @@
+import kasaImage from '../../assets/images/mockupKasa.png';
+import ohmyfoodImage from '../../assets/images/mockOhmyfood.png';
+
 export const projects = [
   {
     title: "Kasa",
@@ -6,7 +9,7 @@ export const projects = [
     technologies: ["React", "Sass", "Node.js"],
     githubLink: "https://github.com/fiorenzo84/Kasa-ProjectV2",
     demoLink: "https://kasa-inky-three.vercel.app/",
-    image: "src/assets/images/mockupKasa.png",
+    image: kasaImage,
   },
   {
     title: "Ohmyfood",
@@ -15,7 +18,7 @@ export const projects = [
     technologies: ["Html", "Sass"],
     githubLink: "https://github.com/fiorenzo84/Projet-Ohmyfood",
     demoLink: "https://fiorenzo84.github.io/Projet-Ohmyfood/index.html",
-    image: "src/assets/images/mockOhmyfood.png",
+    image: ohmyfoodImage,
   },
   // 2 AUTRES PROJETS ICI
 ];
