@@ -1,5 +1,4 @@
 .footer {
-  height: 120px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -14,5 +13,12 @@
   }
   a {
     color: #9d13dc;
+  }
+}
+
+/// RESPONSIVE ///
+@media (min-width: 667px) and (max-width: 800px) {
+  .footer {
+    height: 80vh;
   }
 }

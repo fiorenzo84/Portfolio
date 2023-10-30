@@ -61,10 +61,21 @@
 }
 
 /// RESPONSIVE ///
+@media (min-width: 667px) and (max-width: 800px) {
+  .banner {
+    .monLogo {
+      top: 10px;
+    }
+    .container-icons {
+      top: 170px;
+      right: 0px;
+    }
+  }
+}
+
 @media (min-width: $tablette) {
   .banner {
     .container-title-subtitle {
-      //top: 420px;
       top: 320px;
       font-size: 40px;
       p {
@@ -72,13 +83,10 @@
         font-size: 25px;
       }
     }
-    .monLogo {
-      width: 550px;
-      bottom: 120px;
-    }
+
     .container-icons {
-      top: 360px;
-      right: 300px;
+      top: 320px;
+      right: 0px;
       justify-content: center;
     }
   }
@@ -88,14 +96,13 @@
   .banner {
     .container-title-subtitle {
       font-size: 60px;
-      top: 400px;
       p {
         font-size: 40px;
       }
     }
     .monLogo {
-      width: 780px;
-      bottom: 290px;
+      width: 500px;
+      top: 320px;
     }
     .container-icons {
       top: 230px;
@@ -115,7 +122,7 @@
     }
     .monLogo {
       width: 850px;
-      bottom: 250px;
+      top: -110px;
     }
   }
 }
