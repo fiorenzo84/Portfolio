@@ -12,9 +12,9 @@ export default function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Durée de l'animation en millisecondes
-      once: false, // L'animation ne se déclenche qu'une fois
-      // ... autres options
+      duration: 1000, // Animation duration in millisecondes
+      once: false, // The animation only triggers once
+      // ... other options
     });
   }, []);
 
