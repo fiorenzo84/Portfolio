@@ -23,9 +23,9 @@ Welcome to the repository of my developer portfolio. Designed to showcase my ski
 - **Code verification with ESLint** : `npm run lint`
 - **Preview the production build** : `npm run preview`
 
-## 🌍 Démo en ligne
+## 🌍 Online demo
 
-Check out the portfolio: (coming soon...)
+Check out the portfolio: https://portfolio-react-2lo6b801s-fiorenzo84.vercel.app
 
 ## 🚧 Launch Locally
 
