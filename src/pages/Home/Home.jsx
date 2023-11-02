@@ -1,4 +1,3 @@
-import "./home.scss";
 import {useLocation} from "react-router-dom";
 import About from "../../components/About/About";
 import Banner from "../../components/Banner/Banner";
@@ -20,7 +19,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <ScrollToTop/>
+      <ScrollToTop />
       {isValidRoute ? (
         <>
           <Banner />

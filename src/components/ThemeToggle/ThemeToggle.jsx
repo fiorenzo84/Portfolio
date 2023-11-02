@@ -1,7 +1,7 @@
 import "./themetoggle.scss";
 import {useState, useContext} from "react";
 import {FaMoon} from "react-icons/fa";
-import {MdSunny} from "react-icons/Md";
+import {MdSunny} from "react-icons/md";
 import ThemeContext from "../../services/ThemeContext";
 
 export default function ThemeToggle() {

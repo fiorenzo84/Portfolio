@@ -1,8 +1,40 @@
-# React + Vite
+# Portfolio - Florent Tuppo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository of my developer portfolio. Designed to showcase my skills, background, and projects using React with ViteJS.
 
-Currently, two official plugins are available:
+## 🛠 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Main Framework** : `React`
+- **Bundler / Environment** : `ViteJS`
+- **Styling** : `Sass`
+- **Animations** :
+  - `AOS` (Animate On Scroll)
+  - `react-slick` (Slider/carousel)
+  - `typed.js` (Typing animations)
+- **Icons** : `react-icons`
+- **Routing** : `react-router-dom`
+- **Tooltips** : `react-tooltip`
+- **Form Handling** : `emailjs-com`
+
+## 🚀 Scripts
+
+- **Développement** : `npm run dev`
+- **Build for production** : `npm run build`
+- **Code verification with ESLint** : `npm run lint`
+- **Preview the production build** : `npm run preview`
+
+## 🌍 Démo en ligne
+
+Check out the portfolio: (coming soon...)
+
+## 🚧 Launch Locally
+
+1. Clone this repo : git clone https://github.com/fiorenzo84/Portfolio
+2. Install dependencies : npm install
+3. Launch the project : npm run dev
+
+## 📬 Contact
+
+📬 To contact me :
+- **Email**: florent.tuppo@gmail.com 
+- **LinkedIn**: https://www.linkedin.com/in/florent-tuppo/

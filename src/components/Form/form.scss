@@ -96,12 +96,14 @@ p {
   form {
     justify-content: center;
     height: 70vh;
+    margin-top: 100px;
     margin-bottom: 100px;
   }
 }
 
 @media (min-width: $desktop) {
   form {
+    margin-top: 270px;
     margin-bottom: 30px;
   }
 }

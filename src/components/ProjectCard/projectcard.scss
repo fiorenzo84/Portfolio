@@ -31,10 +31,13 @@
   }
 
   .project-technologies {
-    font-weight: bold;
-    color: #555;
     font-size: 0.9em;
     font-style: italic;
+    background: #fbddff;
+    width: 200px;
+    text-align: center;
+    color: $primary;
+    border-radius: 5px;
   }
 
   .project-links {
