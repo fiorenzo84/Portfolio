@@ -1,5 +1,6 @@
 import kasaImage from '../../assets/images/mockupKasa.png';
 import ohmyfoodImage from '../../assets/images/mockOhmyfood.png';
+import wikiImage from '../../assets/images/mockupWiki.png';
 
 export const projects = [
   {
@@ -20,7 +21,16 @@ export const projects = [
     demoLink: "https://fiorenzo84.github.io/Projet-Ohmyfood/index.html",
     image: ohmyfoodImage,
   },
-  // 2 AUTRES PROJETS ICI
+  {
+    title: "Wikipédia",
+    description:
+      'Projet réalisé en html/css et vanilla Js avec la méthode fetch et l\'API de Wikipédia',
+    technologies: ["Html", "Vanilla js"],
+    githubLink: "https://github.com/fiorenzo84/Recherche-API-Wikipedia",
+    demoLink: "https://fiorenzo84.github.io/Recherche-API-Wikipedia/",
+    image: wikiImage,
+  },
+  // PROJETS ICI
 ];
 
 // CREER LES MOCKUP DES IMAGES PROJET
