@@ -5,7 +5,7 @@ import {FaGithub, FaLinkedin} from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="footer">
-      <p className="footer-text">© 2023 Florent Tuppo - Tous droits réservés</p>
+      <p className="footer-text">© 2024 Florent Tuppo - Tous droits réservés</p>
       <div className="container-icons logo-fade-in">
         <a
           href="https://www.linkedin.com/in/florent-tuppo/"

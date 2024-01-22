@@ -46,11 +46,11 @@ body.light {
   background-size: cover;
 }
 
-/* body.dark {
-  background-image: url("/src/assets/images/background.png");
-} */
-
 body.dark {
+  background-image: url("/src/assets/images/background.png");
+}
+
+/* body.dark {
   background: 
       linear-gradient(135deg,#0000 20.5%,#4d0c6c 0 29.5%,#0000 0) 0 5px,
       linear-gradient( 45deg,#0000 8%,#4d0c6c 0 17%, #0000 0 58%) 10px 0,
@@ -59,7 +59,7 @@ body.dark {
       #5a10a1;
 background-size: 20px 20px;
 
-}
+} */
 
 .light h2,
 .light h3,
