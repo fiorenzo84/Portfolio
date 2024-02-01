@@ -25,7 +25,7 @@ Welcome to the repository of my developer portfolio. Designed to showcase my ski
 
 ## 🌍 Online demo
 
-Check out the portfolio: https://portfolio-react-b1ntcvawm-fiorenzo84.vercel.app/
+Check out the portfolio: https://florent-tuppo-3f85b85mq-fiorenzo84.vercel.app/
 
 ## 🚧 Launch Locally
 
