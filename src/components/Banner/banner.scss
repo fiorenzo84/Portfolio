@@ -76,7 +76,7 @@
 @media (min-width: $tablette) {
   .banner {
     .container-title-subtitle {
-      top: 320px;
+      // top: 320px;
       font-size: 40px;
       p {
         width: 100%;
@@ -85,8 +85,10 @@
     }
 
     .container-icons {
-      top: 320px;
-      right: 0px;
+      // top: 320px;
+      top: 425px;
+      //right: 0px;
+      right: -160px;
       justify-content: center;
     }
   }

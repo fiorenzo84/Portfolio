@@ -86,6 +86,7 @@ p {
 @media (min-width: $tablette) {
   form {
     margin: auto;
+    height: auto;
     textarea {
       height: 235px;
     }
